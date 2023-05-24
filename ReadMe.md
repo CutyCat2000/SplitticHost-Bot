@@ -14,16 +14,7 @@ To use SplitticHost Bot, follow these steps:
 4. Edit all variabled in `main.py` and follow the error logs to set missing files/folders.
 5. Run the bot using the provided `main.py` file: `python main.py`
 
-Please note that you need to have Python 3.7 or above installed on your system to run the bot.
-
-## Features
-
-- **Feature 1:** This feature allows you to do something amazing.
-- **Feature 2:** Use this feature to enhance your productivity.
-- **Feature 3:** Get instant notifications and updates on your projects.
-- **Feature 4:** Collaborate with your team seamlessly.
-- **Feature 5:** Customize the bot's behavior to suit your needs.
-- **Feature 6:** Access a wide range of developer tools and utilities.
+Please note that you need to have Python 3.8 or above installed on your system to run the bot.
 
 ## Usage
 
