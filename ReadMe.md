@@ -1,6 +1,6 @@
 # SplitticHost Bot
 
-![SplitticHost Logo](https://example.com/splittichost_logo.png)
+![SplitticHost Logo](https://cdn.discordapp.com/avatars/1073959783763279963/eceef6b5afda5982c98789966aed4206.webp?size=512&width=0&height=0)
 
 SplitticHost Bot is a powerful Discord bot designed exclusively for developers. It provides a wide range of features to enhance your development experience and streamline your workflow. Whether you're working on a personal project or collaborating with a team, SplitticHost Bot is here to assist you every step of the way.
 
