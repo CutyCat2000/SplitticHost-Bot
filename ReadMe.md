@@ -11,7 +11,7 @@ To use SplitticHost Bot, follow these steps:
 1. Clone the repository: `git clone https://github.com/CutyCat2000/SplitticHost-Bot.git`
 2. Navigate to the project directory: `cd SplitticHostBot`
 3. Install the required dependencies: `pip install -r requirements.txt`
-4. Edit the `config.json` file and enter your Discord bot token and other configuration settings.
+4. Edit all variabled in `main.py` and follow the error logs to set missing files/folders.
 5. Run the bot using the provided `main.py` file: `python main.py`
 
 Please note that you need to have Python 3.7 or above installed on your system to run the bot.
