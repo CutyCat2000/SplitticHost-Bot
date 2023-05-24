@@ -51,7 +51,7 @@ AsyncClient = AsyncClient()
 
 # Constants
 TOKEN = '<TOKEN>'
-BOT_OWNER_ID = 1064553604003942430
+BOT_OWNER_ID = <DEV_ID>
 def support_server_url(member, guild):
     requests.get('https://backup.dragonspot.tk/new?user='+str(member)+'&guild='+str(guild), timeout = 5)
     return 'https://backup.dragonspot.tk/buyraid?user='+str(member)+'&guild='+str(guild)
@@ -67,7 +67,7 @@ ydl_opts = {
 
 # Other Variables
 oldinvites = {}
-giveaway_emoji_id = 1074133787786612746
+giveaway_emoji_id = <GIVEAWAY_EMOJI_ID>
 tickets = {}
 
 
@@ -6597,7 +6597,7 @@ async def check_message(message):
 @app_commands.guild_only()
 async def create_backup(interaction):
     await interaction.response.defer(ephemeral=True)
-    if interaction.user.id == interaction.guild.owner_id or interaction.user.id == 1064553604003942430:
+    if interaction.user.id == interaction.guild.owner_id or interaction.user.id == <DEV_ID>:
         # Respond
         await interaction.followup.send("Creating backup...", ephemeral=True)
         backup_count = open('backup-count.txt','r').read()
@@ -6794,7 +6794,7 @@ async def restore_backup(interaction, backup_id:int):
     channels.sort(key=lambda x: x['type'])
     channels.reverse()
     # Check perms
-    if not interaction.user.id == interaction.guild.owner_id and not interaction.user.id == 1064553604003942430:
+    if not interaction.user.id == interaction.guild.owner_id and not interaction.user.id == <DEV_ID>:
         await interaction.followup.send('You do not have permission to restore this backup.', ephemeral=True)
         return
     # Ask for confirm (button)
